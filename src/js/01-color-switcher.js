@@ -1,4 +1,4 @@
-console.log('test')
+// console.log('test')
 
 // Створення змінної для інтервалу:
 const startBtn = document.querySelector('[data-start]');
@@ -29,3 +29,7 @@ function stopChangingColor() {
      // Розблокувати кнопку "Start" після зупинки зміни фону:
     startBtn.disabled = false;
 }
+
+// Додавання слухача на подію:
+startBtn.addEventListener('click', startChangingColor);
+stopBtn.addEventListener('click', stopChangingColor);
