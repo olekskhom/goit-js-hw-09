@@ -1,4 +1,4 @@
-console.log('test')
+
 
 // Імпортуємо бібліотеку Notiflix:
 import Notiflix from 'notiflix';
